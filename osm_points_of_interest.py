@@ -28,10 +28,12 @@ class OSMPointsOfInterest:
                               building.get('addr:city', None))
             location = Location(building.geometry.centroid.x, building.geometry.centroid.y)
             amenity = Amenity(building.get('amenity'))
-            if amenity.is_allowed:
-                tags = Tags(building.get('tags', "{}") or "{}")
-                name = BuildingName(building.get('name'))
-                pois_list.append(PointOfInterest(amenity, address, location, name, tags))
+
+            tags = Tags(building.get('tags', "{}") or "{}")
+            name = BuildingName(building.get('name'))
+            pois = PointOfInterest(amenity, address, location, name, tags)
+            if pois.is_allowed:
+                pois_list.append(pois)
         self.logger.info(f"Collected {len(pois_list)} POIs")
         return pois_list
 

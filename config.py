@@ -1,8 +1,8 @@
-WINDOW = 3000
+WINDOW = 500
 MAX_DISTANCE = 2500
 
 
-MONGO_CONNECT = "mongodb://gmaps:gmaps@bed:28017/"
+MONGO_CONNECT = "mongodb+srv://2wtarX4YfclfC4t3:Spx9X6Hb7tDWidVS@cluster0.eof3k8h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 MONGO_DB_NAME = "15min"
 MONGO_DB_HOST = 123
 

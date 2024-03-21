@@ -1,3 +1,4 @@
+import category
 from database import MongoDatabase
 from data import ResidentialBuilding, PointOfInterest
 import logging
@@ -36,13 +37,20 @@ class Results:
             if prepared_data.get(result.origin.address.full) is None:
                 prepared_data[result.origin.address.full] = result.origin.to_dict()
                 prepared_data[result.origin.address.full]['points_of_interest'] = {}
+                for main_category, sub_categories in category.get_categories().items():
+                    prepared_data[result.origin.address.full]['points_of_interest'][main_category] = {}
+                    for sub_category in sub_categories:
+                        prepared_data[result.origin.address.full]['points_of_interest'][main_category][sub_category] = []
 
             for amenity in result.destination.amenity:
-                if prepared_data[result.origin.address.full]['points_of_interest'].get(amenity) is None:
-                    prepared_data[result.origin.address.full]['points_of_interest'][amenity] = []
+                if prepared_data[result.origin.address.full]['points_of_interest'].get(result.destination.amenity.main_amenity) is None:
+                    prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity] = {}
+                if prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity].get(amenity) is None:
+                    prepared_data[result.origin.address.full]['points_of_interest'][
+                        result.destination.amenity.main_amenity][amenity] = []
                 poi = result.destination.to_dict()
                 poi['distance'] = result.distance
-                prepared_data[result.origin.address.full]['points_of_interest'][amenity].append(poi)
+                prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity][amenity].append(poi)
         return list(prepared_data.values())
 
     def save_to_db(self):

@@ -1,7 +1,31 @@
-import json
 import logging
+import json
 
-EXCLUDED_AMENITIES = ['unknown', 'parking', 'waste_basket', 'bicycle_parking', 'fuel', 'toilets', 'bench']
+
+class CantMapAmenityException(Exception):
+    pass
+
+
+class TrojmiastoplAmenityMapper:
+    def __init__(self):
+        with open("categories.json", "r") as f:
+            self.map = json.loads(f.read())
+
+        self.rotated_map = {}
+
+        for main_category, sub_categories in self.map.items():
+            for sub_category in sub_categories:
+                self.rotated_map[sub_category] = main_category
+
+    def map_dirty_category_to_clean_category(self, category):
+        for main_amenity_key, sub_amenities in self.map.items():
+            for sub_amenity_key, replaced_amenity in sub_amenities.items():
+                if category in replaced_amenity:
+                    return sub_amenity_key
+        return "UNKNOWN"
+
+    def get_main_amenity_by_clean_category(self, category):
+        return self.rotated_map.get(category)
 
 
 class Location:
@@ -50,6 +74,7 @@ class Address:
         if self.street is not None and self.city is not None:
             return True
         return False
+
 
     def __str__(self):
         return self.full
@@ -124,12 +149,13 @@ class ResidentialBuilding:
 class Amenity:
     def __init__(self, values: list) -> None:
         self.values = []
+        self.amenity_mapper = TrojmiastoplAmenityMapper()
         for value in values:
-            if self.is_allowed(value):
-                self.values.append(value.lower())
+            self.values.append(self.amenity_mapper.map_dirty_category_to_clean_category(value.lower()))
 
-    def is_allowed(self, value):
-        return value not in EXCLUDED_AMENITIES
+    @property
+    def main_amenity(self):
+        return self.amenity_mapper.get_main_amenity_by_clean_category(self.values[0])
 
     def __str__(self):
         return ', '.join(self.values)
@@ -156,6 +182,7 @@ class Amenity:
             return result
         else:
             raise StopIteration
+
 
 class Tags:
     def __init__(self, tags: str) -> None:
@@ -208,6 +235,10 @@ class PointOfInterest:
             data['address'] = self.address.to_dict()
         return data
 
+    @property
+    def is_allowed(self) -> bool:
+        return self.amenity.is_allowed()
+
     def __eq__(self, other):
         if isinstance(other, PointOfInterest):
             return (
@@ -230,5 +261,3 @@ class PointOfInterest:
 
     def __str__(self):
         return f"{self.name}-{self.address}-{self.tags}"
-
-

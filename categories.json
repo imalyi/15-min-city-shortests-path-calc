@@ -1,152 +1,60 @@
 {
-  "Jedzenie": [
-    "Smażalnia ryb",
-    "Drink Bary",
-    "Burgery",
-    "Lodziarnie",
-    "Bistro",
-    "Fast food",
-    "Food hall",
-    "Bary",
-    "Szkoły średnie",
-    "Winiarnie",
-    "Browary",
-    "Cukiernie i piekarnie",
-    "Puby",
-    "Restauracje",
-    "Bary mleczne",
-    "Sushi",
-    "Pizzerie",
-    "Kebaby",
-    "Sklepy rybne",
-    "Kawiarnie i herbaciarnie",
-    "Bary przekąskowe",
-    "Palarnie kawy",
-    "Naleśnikarnie"
-  ],
-  "Sklepy": [
-    "Sklepy garmażeryjne",
-    "Sklepy ogólnospożywcze",
-    "Produkcja spożywcza",
-    "Odżywki i suplementy diety",
-    "Drogerie",
-    "Sklepy zielarsko-medyczne",
-    "Sklepy monopolowe",
-    "Supermarkety",
-    "Sklepy z winami",
-    "Perfumerie",
-    "Księgarnie",
-    "Zdrowa żywność",
-    "Hipermarkety",
-    "Punkty ksero",
-    "Targowiska",
-    "Sklepy mięsne"
-  ],
-  "Rozrywka": [
-    "Place zabaw i małpie gaje",
-    "Kina",
-    "Centra handlowe",
-    "Kręgielnie",
-    "Kluby nocne",
-    "Kluby, dyskoteki",
-    "Kluby bilardowe",
-    "Gry planszowe"
-  ],
-  "Sport": [
-    "Siłownie i fitness kluby",
-    "Aquafitness",
-    "Gimnastyka artystyczna i sportowa",
-    "Medytacje",
-    "Jazda konna",
-    "Squash",
-    "Strzelnice",
-    "Joga",
-    "Nauka pływania",
-    "Windsurfing, kitesurfing",
-    "Baseny",
-    "Studio Pilates",
-    "Sztuki walki i samoobrona",
-    "Golf",
-    "Korty badminton",
-    "Kajaki",
-    "Kluby sportowe",
-    "Nordic walking",
-    "Wspinaczka",
-    "Skateparki",
-    "Sauny",
-    "Lodowiska"
-  ],
-  "Poczta": [
-    "Punkty odbioru przesyłek"
-  ],
-  "Edukacja": [
-    "Szkolnictwo policealne i pomaturalne",
-    "Biblioteki",
-    "Kursy muzyczne",
-    "Nauka tenisa",
-    "Szkoły podstawowe",
-    "Przedszkola",
-    "Szkoły wyższe",
-    "Uniwersytety Trzeciego Wieku",
-    "Kursy tańca",
-    "Szkolenia psów",
-    "Szkoły wizażu i stylizacji",
-    "Pole dance",
-    "Kursy szybkiego czytania",
-    "Szkoły językowe",
-    "Szkółki Piłkarskie"
-  ],
-  "Pieniadze": [
-    "Bankomaty",
-    "Bankomaty BPH",
-    "Bankomaty ING Bank Śląski",
-    "Bankomaty SGB",
-    "Bankomaty PKO BP",
-    "Bankomaty Citibank",
-    "Bankomaty eCard",
-    "Bankomaty Euronet",
-    "Banki"
-  ],
-  "Higiena": [
-    "SPA",
-    "Depilacja laserowa",
-    "Depilacja pastą cukrową",
-    "Barber Shop",
-    "Fryzjerzy",
-    "Przedłużanie rzęs",
-    "Paznokcie",
-    "Solaria",
-    "Salony masażu",
-    "Przedłużanie włosów",
-    "Masażyści",
-    "Depilacja woskiem",
-    "Salony kosmetyczne"
-  ],
-  "Hobby": [
-    "Modelarstwo",
-    "Drukarnie 3D",
-    "Bookcrossing"
-  ],
-  "Wyposazanie": [
-    "Pralnie, magiel - wyposażenie, artykuły",
-    "Pralnie"
-  ],
-  "4lapy": [
-    "Hotele dla zwierząt",
-    "Weterynarze",
-    "Pielęgnacja zwierząt",
-    "Sklepy zoologiczne"
-  ],
-  "Biura": [
-    "Współdzielenie biura - coworking"
-  ],
-  "Zdrowie": [
-    "Lekarze rodzinni",
-    "Interniści",
-    "Pediatrzy",
-    "Apteki",
-    "Prywatne kliniki i spółdzielnie",
-    "Apteki całodobowe",
-    "Przychodnie, poradnie"
-  ]
+  "Gastronomia": {
+    "Street Food": ["smażalnia ryb", "lodziarnie", "food hall", "kebaby"],
+    "puby i bary": ["drink bary", "bary", "winiarnie", "browary", "cukiernie i piekarnie", "puby"],
+    "Fast Food": ["burgery", "fast food", "bary przekąskowe", "naleśnikarnie"],
+    "Restauracje": ["bistro", "restauracje", "sushi", "pizzerie"]
+  },
+  "Sklepy": {
+    "Artykuły spożywcze i kosmetyczne": ["sklepy garmażeryjne", "sklepy ogólnospożywcze", "produkcja spożywcza", "odżywki i suplementy diety", "drogerie", "sklepy zielarsko-medyczne", "sklepy monopolowe", "supermarkety", "sklepy z winami", "perfumerie", "zdrowa żywność", "hipermarkety", "targowiska", "sklepy mięsne"],
+    "Artykuły domowe i hobbystyczne": ["księgarnie", "punkty ksero", "szkolnictwo policealne i pomaturalne"]
+  },
+  "Rozrywka": {
+    "Centra rozrywki": ["place zabaw i małpie gaje", "centra handlowe"],
+    "Kina, teatry, opery": ["kina"],
+    "Sale gier": ["kręgielnie", "kluby bilardowe", "gry planszowe"],
+    "Kluby, dyskoteki": ["kluby nocne", "kluby, dyskoteki"]
+  },
+  "Sport": {
+    "Siłownie, fitness, mindfulness": ["siłownie i fitness kluby", "gimnastyka artystyczna i sportowa", "medytacje", "joga", "studio pilates"],
+    "Baseny i kąpieliska": ["aquafitness", "nauka pływania", "windsurfing, kitesurfing", "baseny", "kajaki"],
+    "Hobby, open space": ["jazda konna", "squash", "strzelnice", "sztuki walki i samoobrona", "nordic walking", "wspinaczka", "kluby sportowe", "lodowiska"]
+  },
+  "Poczta": {
+    "Placówki pocztowe, bankomaty": ["punkty odbioru przesyłek", "bankomaty", "bankomaty bph", "bankomaty ing bank śląski", "bankomaty sgb", "bankomaty pko bp", "bankomaty citibank", "bankomaty ecard", "bankomaty euronet", "banki"]
+  },
+  "Edukacja": {
+    "Szkoły średnie": ["szkolnictwo policealne i pomaturalne"],
+    "Przedszkola i szkoły podstawowe": ["żłobki", "szkoły podstawowe", "przedszkola"],
+    "Biblioteki": ["biblioteki"],
+    "Szkoły artystyczne i hobbystyczne": ["kursy muzyczne", "nauka tenisa", "kursy tańca", "szkolenia psów", "szkoły wizażu i stylizacji", "pole dance", "kursy szybkiego czytania", "szkoły językowe", "szkółki piłkarskie"]
+  },
+  "Pieniądze": {
+    "Placówki pocztowe, bankomaty": ["bankomaty", "bankomaty bph", "bankomaty ing bank śląski", "bankomaty sgb", "bankomaty pko bp", "bankomaty citibank", "bankomaty ecard", "bankomaty euronet", "banki"]
+  },
+  "Higiena": {
+    "SPA, masaże": ["spa", "solaria", "salony masażu", "masażyści"],
+    "Salony kosmetyczne": ["depilacja laserowa", "depilacja pastą cukrową", "przedłużanie rzęs", "paznokcie", "przedłużanie włosów", "depilacja woskiem", "salony kosmetyczne"],
+    "Fryzjerzy i barberzy": ["barber shop", "fryzjerzy"]
+  },
+  "Hobby": {
+    "Open space": ["modelarstwo", "drukarnie 3D", "bookcrossing"]
+  },
+  "Wyposażenie": {
+    "Artykuły domowe i hobbystyczne": ["pralnie, magiel (wyposażenie, artykuły)", "pralnie"]
+  },
+  "4łapy": {
+    "Turystyka": ["hotele dla zwierząt"],
+    "Zdrowie": ["weterynarze"],
+    "Pielęgnacja zwierząt": ["pielęgnacja zwierząt"],
+    "Artykuły dla zwierząt": ["sklepy zoologiczne"]
+  },
+  "Biura": {
+    "Open space": ["współdzielenie biura (coworking)"]
+  },
+  "Zdrowie": {
+    "Gabinety lekarskie": ["lekarze rodzinni", "interniści", "pediatrzy", "prywatne kliniki i spółdzielnie"],
+    "Apteki": ["apteki", "apteki całodobowe"],
+    "Szpitale, przychodnie, poradnie": ["przychodnie, poradnie"]
+  }
 }

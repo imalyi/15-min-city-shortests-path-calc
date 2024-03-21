@@ -24,4 +24,6 @@ class PathCalculator:
                 result = Result(orig, dest, dist)
                 self.results.add(result)
             i += 1
+            if i == 2:
+                break
         self.results.save_to_db()

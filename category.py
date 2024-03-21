@@ -12,31 +12,16 @@ def read_categories():
     return categories
 
 
-def save_categories():
-    res = {'unknown': []}
-    categories = read_categories()
-    for category in categories:
-        res['unknown'].append(category)
-    with open("categories.json", "w", encoding="utf8") as f:
-        f.write(json.dumps(res, indent=4, ensure_ascii=False))
-
-
-def save_categories_to_db():
+def get_categories():
     with open("categories.json", "r") as f:
         data = json.loads(f.read())
+    clean_data = {}
+    for main_category, sub_category in data.items():
+        clean_data[main_category] = list(sub_category.keys())
+    return clean_data
 
-    last_id = 0
-    new_data = {}
-    for category, items in data.items():
-        for item in items:
-            if not new_data.get(category):
-                new_data[category] = []
-            new_data[category].append({'id': last_id, 'name': item})
-            last_id += 1
 
+def save():
     db = MongoDatabase()
-    db.insert_categories(new_data)
+    db.insert_categories(get_categories())
 
-
-
-save_categories_to_db()
