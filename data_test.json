@@ -1,28 +1,24 @@
-[
-{"name": "Aleppo Bar", "categories": ["Fast food", "Kebaby"], "address": {"city": "Gdańsk", "postcode": "80-180", "street": "al. Grunwaldzka 44"}},
-{"name": "Antakya Kebab & Shisha Pub", "categories": ["Fast food", "Puby", "Kebaby"], "address": {"city": "Gdańsk", "postcode": "80-350", "street": "Chłopska 59"}},
-{"name": "Bar AKA", "categories": ["Fast food", "Kebaby"], "address": {"city": "Gdańsk", "postcode": "80-264", "street": "Klonowa 4"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdynia", "postcode": "81-304", "street": "Kazimierza Górskiego 2"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdynia", "postcode": "81-451", "street": "al. Zwycięstwa 179"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-175", "street": "płk. Jana Pałubickiego 10"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-264", "street": "al. Grunwaldzka 141"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-806", "street": "Targ Sienny 7"}},
-{"name": "Burger King", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-452", "street": "Jana Kilińskiego 4"}},
-{"name": "Champion Grill", "categories": ["Fast food", "Kebaby"], "address": {"city": "Gdańsk", "postcode": "80-354", "street": "Subisława 37"}},
-{"name": "Fornetti", "categories": ["Fast food", "Cukiernie i piekarnie"], "address": {"city": "Gdańsk", "postcode": "80-314", "street": "al. Grunwaldzka 309"}},
-{"name": "Fries Paradise", "categories": ["Fast food"], "address": {"city": "Gdynia", "postcode": "81-364", "street": "10 Lutego 28"}},
-{"name": "Gastro", "categories": ["Fast food", "Pizzerie", "Kebaby"], "address": {"city": "Gdańsk", "postcode": "80-288", "street": "Politechniczna 9"}},
-{"name": "Gdyńska Zapiekanka", "categories": ["Fast food"], "address": {"city": "Gdynia", "postcode": "81-388", "street": "Świętojańska 18"}},
-{"name": "Kali Orexi", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-264", "street": "Klonowa"}},
-{"name": "Kebab King", "categories": ["Fast food"], "address": {"city": "Gdańsk", "postcode": "80-126", "street": "Stanisława Lema 4"}},
-{"name": "Kebabistan", "categories": ["Fast food"], "address": {"city": "Sopot", "postcode": "81-759", "street": "Bohaterów Monte Cassino 2A"}},
-{"name": "A Dong", "categories": ["Bary"], "address": {"city": "Gdańsk", "postcode": "80-398", "street": "Obrońców Wybrzeża 10A"}},
-{"name": "A-Dong", "categories": ["Bary", "Jedzenie na wynos"], "address": {"city": "Gdańsk", "postcode": "80-266", "street": "al. Grunwaldzka 209"}},
-{"name": "Am Thut Viet", "categories": ["Bary"], "address": {"city": "Sopot", "postcode": "81-838", "street": "al. Niepodległości 755"}},
-{"name": "Asia Hung", "categories": ["Bary"], "address": {"city": "Gdańsk", "postcode": "80-264", "street": "al. Grunwaldzka 141"}},
-{"name": "Asia Hung", "categories": ["Bary"], "address": {"city": "Gdańsk", "postcode": "80-288", "street": "Heleny Marusarzówny 2"}},
-{"name": "Asia Taste", "categories": ["Bary", "Jedzenie na wynos"], "address": {"city": "Gdańsk", "postcode": "80-369", "street": "al. Rzeczypospolitej 21D"}},
-{"name": "Bar 512", "categories": ["Bary"], "address": {"city": "Sopot", "postcode": "81-718", "street": "Powstańców Warszawy 10"}},
-{"name": "Bar Alicja", "categories": ["Bary", "Jedzenie na wynos"], "address": {"city": "Gdynia", "postcode": "81-651", "street": "Łużycka 6C"}},
-{"name": "Bar Asia Tuan Anh", "categories": ["Bary"], "address": {"city": "Gdańsk", "postcode": "80-808", "street": "Odrzańska 32"}}
-]
+[{
+        "categories": {
+            "main": "Higiena",
+            "sub": "Fryzjerzy i barberzy"
+        },
+        "name": "A'rlette Studio Fryzjerskie",
+        "address": {
+            "city": "Gdańsk",
+            "postcode": "80-462",
+            "street": "al. Jana Pawła II 6E/3"
+        }
+    },
+    {
+        "categories": {
+              "main": "Higiena",
+            "sub": "Fryzjerzy i barberzy"
+        },
+        "name": "Adara",
+        "address": {
+            "city": "Gdynia",
+            "postcode": "81-450",
+            "street": "Redłowska 52/5"
+        }
+    }]

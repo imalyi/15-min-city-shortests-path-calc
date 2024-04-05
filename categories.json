@@ -1,31 +1,43 @@
 {
   "Gastronomia": {
-    "Street Food": ["smażalnia ryb", "lodziarnie", "food hall", "kebaby"],
-    "puby i bary": ["drink bary", "bary", "winiarnie", "browary", "cukiernie i piekarnie", "puby"],
-    "Fast Food": ["burgery", "fast food", "bary przekąskowe", "naleśnikarnie"],
-    "Restauracje": ["bistro", "restauracje", "sushi", "pizzerie"]
+    "Street Food": ["smażalnia ryb", "lodziarnie", "food hall", "kebaby", "fast food"],
+    "Puby i bary": ["drink bary", "bary", "winiarnie", "browary", "puby"],
+    "Fast Food": ["burgery", "fast food", "bary przekąskowe", "naleśnikarnie", "cukiernie i piekarnie"],
+    "Restauracje": ["bistro", "restauracje"],
+    "Sushi": ["sushi"],
+    "Pizzerie": ["pizzerie"]
   },
   "Sklepy": {
-    "Artykuły spożywcze i kosmetyczne": ["sklepy garmażeryjne", "sklepy ogólnospożywcze", "produkcja spożywcza", "odżywki i suplementy diety", "drogerie", "sklepy zielarsko-medyczne", "sklepy monopolowe", "supermarkety", "sklepy z winami", "perfumerie", "zdrowa żywność", "hipermarkety", "targowiska", "sklepy mięsne"],
-    "Artykuły domowe i hobbystyczne": ["księgarnie", "punkty ksero", "szkolnictwo policealne i pomaturalne"]
+    "Małe skłepy spożywcze": ["sklepy ogólnospożywcze", "produkcja spożywcza", "sklepy monopolowe", "sklepy z winami", "targowiska"],
+    "Hipermarkety": ["hipermarkety"],
+    "Supermarkety": ["supermarkety"],
+    "Sklepy mięsne": ["sklepy garmażeryjne", "sklepy mięsne"],
+    "Zdrowie": ["odżywki i suplementy diety", "sklepy zielarsko-medyczne", "zdrowa żywność"],
+    "Kosmetyczne": ["drogerie", "perfumerie"],
+    "Księgarnie": ["księgarnie"],
+    "Zoologiczne": ["sklepy zoologiczne"]
   },
   "Rozrywka": {
-    "Centra rozrywki": ["place zabaw i małpie gaje", "centra handlowe"],
+    "Centra rozrywki": ["place zabaw i małpie gaje"],
+    "Centra handlowe": ["centra handlowe"],
     "Kina, teatry, opery": ["kina"],
     "Sale gier": ["kręgielnie", "kluby bilardowe", "gry planszowe"],
     "Kluby, dyskoteki": ["kluby nocne", "kluby, dyskoteki"]
   },
   "Sport": {
-    "Siłownie, fitness, mindfulness": ["siłownie i fitness kluby", "gimnastyka artystyczna i sportowa", "medytacje", "joga", "studio pilates"],
-    "Baseny i kąpieliska": ["aquafitness", "nauka pływania", "windsurfing, kitesurfing", "baseny", "kajaki"],
-    "Hobby, open space": ["jazda konna", "squash", "strzelnice", "sztuki walki i samoobrona", "nordic walking", "wspinaczka", "kluby sportowe", "lodowiska"]
+    "Siłownie": ["siłownie i fitness kluby"],
+    "Mindfulness": ["medytacje", "joga"],
+    "Baseny i kąpieliska": ["aquafitness", "nauka pływania", "windsurfing, kitesurfing", "baseny"],
+    "Hobby, open space": ["jazda konna", "studio pilates", "squash", "strzelnice", "sztuki walki i samoobrona", "kajaki", "nordic walking", "wspinaczka", "kluby sportowe", "lodowiska", "gimnastyka artystyczna i sportowa"]
   },
-  "Poczta": {
-    "Placówki pocztowe, bankomaty": ["punkty odbioru przesyłek", "bankomaty", "bankomaty bph", "bankomaty ing bank śląski", "bankomaty sgb", "bankomaty pko bp", "bankomaty citibank", "bankomaty ecard", "bankomaty euronet", "banki"]
+  "Poczta i Paczkomaty": {
+    "Placówki pocztowe, bankomaty": ["punkty odbioru przesyłek", "Paczkomat InPost"]
   },
   "Edukacja": {
-    "Szkoły średnie": ["szkolnictwo policealne i pomaturalne"],
-    "Przedszkola i szkoły podstawowe": ["żłobki", "szkoły podstawowe", "przedszkola"],
+    "Szkoły policealne": ["szkolnictwo policealne i pomaturalne"],
+    "Szkoły podstawowe": ["szkoły podstawowe"],
+    "Żłobki": ["żłobki"],
+    "Przedszkola": ["przedszkola"],
     "Biblioteki": ["biblioteki"],
     "Szkoły artystyczne i hobbystyczne": ["kursy muzyczne", "nauka tenisa", "kursy tańca", "szkolenia psów", "szkoły wizażu i stylizacji", "pole dance", "kursy szybkiego czytania", "szkoły językowe", "szkółki piłkarskie"]
   },
@@ -41,20 +53,27 @@
     "Open space": ["modelarstwo", "drukarnie 3D", "bookcrossing"]
   },
   "Wyposażenie": {
-    "Artykuły domowe i hobbystyczne": ["pralnie, magiel (wyposażenie, artykuły)", "pralnie"]
+    "Artykuły domowe i hobbystyczne": ["pralnie, magiel (wyposażenie, artykuły)"]
   },
   "4łapy": {
     "Turystyka": ["hotele dla zwierząt"],
     "Zdrowie": ["weterynarze"],
-    "Pielęgnacja zwierząt": ["pielęgnacja zwierząt"],
-    "Artykuły dla zwierząt": ["sklepy zoologiczne"]
+    "Pielęgnacja": ["pielęgnacja zwierząt"]
   },
   "Biura": {
-    "Open space": ["współdzielenie biura (coworking)"]
+    "Open space": ["współdzielenie biura (coworking)"],
+    "punkty ksero": ["punkty ksero"]
   },
   "Zdrowie": {
-    "Gabinety lekarskie": ["lekarze rodzinni", "interniści", "pediatrzy", "prywatne kliniki i spółdzielnie"],
+    "Lekarze rodzinni": ["lekarze rodzinni"],
+    "Interniści": ["interniści"],
+    "Pediatrzy": ["pediatrzy"],
+    "Prywatne kliniki i spółdzielnie": ["prywatne kliniki i spółdzielnie"],
     "Apteki": ["apteki", "apteki całodobowe"],
-    "Szpitale, przychodnie, poradnie": ["przychodnie, poradnie"]
+    "Przychodnie": ["przychodnie"]
+  },
+  "Transport": {
+    "Rowery MEVO": ["rowery mevo"],
+    "Przystanki": ["przystanki"]
   }
 }

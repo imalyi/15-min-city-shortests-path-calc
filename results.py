@@ -1,61 +1,67 @@
-import category
 from database import MongoDatabase
 from data import ResidentialBuilding, PointOfInterest
 import logging
-from config import MAX_DISTANCE
+from distance import Distance
+from category import generate_dict_with_empty_categories
 
 
 class Result:
-    def __init__(self, origin: ResidentialBuilding, destination: PointOfInterest, distance: float):
-        self.destination = destination
-        self.origin = origin
-        self.distance = distance
+    def __init__(self, residential_building: ResidentialBuilding):
+        self.residential_building = residential_building
+        self.pois = {}
+        self._create_pois_structure()
+
+    def _create_pois_structure(self):
+        self.pois = generate_dict_with_empty_categories()
 
     def __str__(self):
-        return f"{str(self.origin)} - {str(self.destination)})"
+        return f"{str(self.residential_building)}"
 
-    def is_distance_acceptable(self):
-        if self.distance <= MAX_DISTANCE:
-            return True
-        return False
+    @property
+    def residential_building_full_address(self) -> str:
+        return self.residential_building.address.full
+
+    @property
+    def get_residential_building(self) -> ResidentialBuilding:
+        return self.residential_building
+
+    def add_pois(self, poi: PointOfInterest, distance: Distance):
+        if not self.pois.get(poi.amenity.main_amenity):
+            self.pois[poi.amenity.main_amenity] = {}
+
+        if not self.pois.get(poi.amenity.main_amenity).get(poi.amenity.sub_amenity):
+            self.pois[poi.amenity.main_amenity][poi.amenity.sub_amenity] = []
+        dict_poi = poi.to_dict()
+        dict_poi.update({'distance': distance.distance})
+        self.pois[poi.amenity.main_amenity][poi.amenity.sub_amenity].append(dict_poi)
+
+    @property
+    def to_dict(self) -> dict:
+        return {
+            'address': self.residential_building.address.to_dict(),
+            'location': self.residential_building.location.to_dict(),
+            'points_of_interest': self.pois
+        }
 
 
 class Results:
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
-        self.results = []
+        self.results = {}
         self.db = MongoDatabase()
 
-    def add(self, result: Result) -> None:
-        if not result.is_distance_acceptable():
+    def add(self, residential_building: ResidentialBuilding, poi: PointOfInterest, distance: Distance) -> None:
+        if not distance.is_acceptable:
             return
-        self.results.append(result)
-
-    def _prepare_to_saving(self):
-        prepared_data = {}
-        for result in self.results:
-            if prepared_data.get(result.origin.address.full) is None:
-                prepared_data[result.origin.address.full] = result.origin.to_dict()
-                prepared_data[result.origin.address.full]['points_of_interest'] = {}
-                for main_category, sub_categories in category.get_categories().items():
-                    prepared_data[result.origin.address.full]['points_of_interest'][main_category] = {}
-                    for sub_category in sub_categories:
-                        prepared_data[result.origin.address.full]['points_of_interest'][main_category][sub_category] = []
-
-            for amenity in result.destination.amenity:
-                if prepared_data[result.origin.address.full]['points_of_interest'].get(result.destination.amenity.main_amenity) is None:
-                    prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity] = {}
-                if prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity].get(amenity) is None:
-                    prepared_data[result.origin.address.full]['points_of_interest'][
-                        result.destination.amenity.main_amenity][amenity] = []
-                poi = result.destination.to_dict()
-                poi['distance'] = result.distance
-                prepared_data[result.origin.address.full]['points_of_interest'][result.destination.amenity.main_amenity][amenity].append(poi)
-        return list(prepared_data.values())
+        if residential_building.address.full not in self.results:
+            self.results[residential_building.address.full] = Result(residential_building)
+        self.results[residential_building.address.full].add_pois(poi, distance)
 
     def save_to_db(self):
-        prepared_data = self._prepare_to_saving()
         self.logger.info(f"Start saving {len(self.results)} addresses")
+        prepared_data = []
+        for _, result in self.results.items():
+            prepared_data.append(result.to_dict)
         self.db.insert_many(prepared_data)
         self.logger.info(f"Done saving {len(self.results)} addresses")
         self.results.clear()

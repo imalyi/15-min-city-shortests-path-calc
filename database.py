@@ -1,7 +1,7 @@
 from pymongo import MongoClient
-from pymongo.errors import ServerSelectionTimeoutError
+from pymongo.errors import ServerSelectionTimeoutError, OperationFailure, BulkWriteError
 import logging
-from config import MONGO_CONNECT, MONGO_DB_NAME, MONGO_DB_HOST
+from config import MONGO_CONNECT, MONGO_DB_NAME
 
 
 class MongoDatabase:
@@ -31,3 +31,20 @@ class MongoDatabase:
     def insert_categories(self, data):
         self.db['categories'].delete_many({})
         self.db['categories'].insert_one(data)
+
+    def get_all_pois(self):
+        return self.db['address'].find({})
+
+    def create_pois_collection(self):
+        pois_collection = self.db['pois_names']
+
+        try:
+            pois_collection.create_index([('sub_category', 1), ('category', 1), ('name', 1)], unique=True)
+        except OperationFailure as e:
+            print(f"Failed to create index: {e}")
+
+    def save_pois(self, pois: set):
+        try:
+            self.db['pois_names'].insert_many(pois, ordered=False)
+        except BulkWriteError as e:
+            print(f"Some documents were not inserted: {e.details['writeErrors']}")

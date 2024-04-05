@@ -19,7 +19,7 @@ class OSMResidentialBuildings:
             self.buildings_iterator = iter(self._data)
             raise StopIteration
 
-    def get_buildings(self) -> list:
+    def get_buildings(self) -> list[ResidentialBuilding]:
         logging.info("Start loading buildings info..")
         buildings = self.osm.get_buildings()
         buildings_list = []

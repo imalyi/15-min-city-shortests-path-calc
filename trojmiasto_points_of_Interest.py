@@ -46,16 +46,13 @@ class AddressToCoordinates:
         self.residential_buildings = residential_buildings
         self.data = {}
         self.geocoding_api = GeoCodingAPI()
-        with open("debug.txt", "w") as f:
-            f.write("")
         self.create()
 
     def create(self):
         i = 0
         for building in self.residential_buildings:
-            city = building.address.city.lower()
-            street = (building.address.street + ' ' + building.address.housenumber).lower()
-            print(city, ' ', street, file=open("debug.txt", 'a'))
+            city = building.address.city
+            street = (building.address.street + ' ' + building.address.housenumber)
             i += 1
             if city not in self.data:
                 self.data[city] = {}
@@ -64,7 +61,7 @@ class AddressToCoordinates:
                 self.data[city][street] = building
         self.logger.info(f"Loaded {i} addresses from OSM")
 
-    def get(self, city: str, street: str):
+    def get(self, city: str, street: str) -> Location:
         res = self.data[city].get(street)
         if res:
             location = res.location
@@ -84,7 +81,7 @@ class TrojmiastoPlPointsOfInterest:
         self.find_address()
 
     def read_data(self):
-        with open("data_test.json", "r") as f:
+        with open("data.json", "r") as f:
             self.raw_data = json.loads(f.read())
 
     def find_address(self):
@@ -98,10 +95,10 @@ class TrojmiastoPlPointsOfInterest:
             for from_, to in REPLACE:
                 street = street.replace(from_, to)
 
-            street = street.lower().split("/")[0]
-            location = self.address_to_coordinates.get(city=row.get('address').get('city').lower(), street=street)
+            street = street.split("/")[0]
+            location = self.address_to_coordinates.get(city=row.get('address').get('city'), street=street)
             if location:
-                amenities = Amenity(row.get('categories'))
+                amenities = Amenity(**row.get('categories'))
                 address = Address(street, row.get('address').get('city'))
                 name = BuildingName(row.get('name'))
                 poi = PointOfInterest(amenities, address, location, name)
