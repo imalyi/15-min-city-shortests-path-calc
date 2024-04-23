@@ -8,7 +8,7 @@ class MongoDatabase:
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.__connect()
-        self.bulk_delete_points_of_interest()
+        #self.bulk_delete_points_of_interest()
 
     def __connect(self):
         try:
