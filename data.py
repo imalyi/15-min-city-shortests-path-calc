@@ -1,6 +1,6 @@
 import logging
 import json
-
+from geometry import Geometry
 
 class Location:
     def __init__(self, x: float, y: float) -> None:
@@ -94,9 +94,10 @@ class BuildingName:
 
 
 class ResidentialBuilding:
-    def __init__(self, address: Address, location: Location):
+    def __init__(self, address: Address, location: Location, geometry: Geometry):
         self.address = address
         self.location = location
+        self.geometry = geometry
         self.id_ = None
         self.data_source = 'https://www.openstreetmap.org'
 
@@ -104,7 +105,8 @@ class ResidentialBuilding:
         return {
             'address': self.address.to_dict(),
             'location': self.location.to_dict(),
-            'source': self.data_source
+            'source': self.data_source,
+            'geometry': self.geometry.to_dict()
         }
 
     def __str__(self):

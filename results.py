@@ -2,7 +2,7 @@ from database import MongoDatabase
 from data import ResidentialBuilding, PointOfInterest
 import logging
 from distance import Distance
-from category import generate_dict_with_empty_categories
+from categories.category import generate_dict_with_empty_categories
 
 
 class Result:
@@ -37,11 +37,11 @@ class Result:
 
     @property
     def to_dict(self) -> dict:
-        return {
-            'address': self.residential_building.address.to_dict(),
-            'location': self.residential_building.location.to_dict(),
+        data = self.residential_building.to_dict()
+        data.update({
             'points_of_interest': self.pois
-        }
+        })
+        return data
 
 
 class Results:

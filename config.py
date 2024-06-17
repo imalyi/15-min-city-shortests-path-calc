@@ -2,7 +2,7 @@ WINDOW = 500
 MAX_DISTANCE = 2500
 
 
-MONGO_CONNECT = "mongodb://root:example@node:27017/"
+MONGO_CONNECT = "mongodb://root:example@node:27777/"
 MONGO_DB_NAME = "15min"
 
 

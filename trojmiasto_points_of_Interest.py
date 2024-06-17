@@ -81,7 +81,7 @@ class TrojmiastoPlPointsOfInterest:
         self.find_address()
 
     def read_data(self):
-        with open("data.json", "r") as f:
+        with open("poi_data/data_test.json", "r") as f:
             self.raw_data = json.loads(f.read())
 
     def find_address(self):

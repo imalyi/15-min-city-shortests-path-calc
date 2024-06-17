@@ -1,6 +1,6 @@
 import logging
 from data import Address, Location, ResidentialBuilding
-
+from geometry import Geometry
 
 class OSMResidentialBuildings:
     def __init__(self, osm):
@@ -20,14 +20,19 @@ class OSMResidentialBuildings:
             raise StopIteration
 
     def get_buildings(self) -> list[ResidentialBuilding]:
-        logging.info("Start loading buildings info..")
+        logging.info("Start loading residential buildings info..")
         buildings = self.osm.get_buildings()
         buildings_list = []
+        building_count = 0
         for index, building in buildings.iterrows():
             address = Address(building.get('addr:street', None), building.get('addr:city', None), building.get('addr:housenumber', None))
             location = Location(building.geometry.centroid.x, building.geometry.centroid.y)
+            geometry = Geometry(building.geometry)
             if address.is_valid:
-                buildings_list.append(ResidentialBuilding(address, location))
+                buildings_list.append(ResidentialBuilding(address, location, geometry))
+            building_count += 1
+            if building_count % 10000 == 0:
+                logging.info(f"Collected {building_count} residential buildings")
         logging.info(f"Collected {len(buildings_list)} residential buildings")
         return buildings_list
 
