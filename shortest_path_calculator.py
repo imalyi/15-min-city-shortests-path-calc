@@ -24,4 +24,4 @@ class PathCalculator:
             for residential_building, poi, dist in zip(residential_buildings, pois, dists):
                 self.results.add(residential_building, poi, Distance(dist))
             i += 1
-            self.results.save_to_db()
+        self.results.save_to_db()
