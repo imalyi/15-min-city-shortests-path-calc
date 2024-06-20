@@ -1,5 +1,5 @@
 WINDOW = 500
-MAX_DISTANCE = 2500
+MAX_DISTANCE = 1100
 
 
 MONGO_CONNECT = "mongodb://root:example@node:27777/"
@@ -12,3 +12,6 @@ OPENSEARCH_USER = 'admin'
 OPENSEARCH_PASSWORD = 'admin'
 
 GEOCODINGAPI = '65a53f8bc1037243302270wem37f6cb'
+
+
+JSON_DATA_PATH = '/home/igor/Projects/15-min-city-shortests-path-calc/poi_data'

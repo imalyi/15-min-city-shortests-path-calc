@@ -3,7 +3,7 @@ from results import Results, Result
 from pairs import Pairs
 import logging
 from id_to_data import IDToData
-from distance import Distance
+from data import Distance
 
 
 class PathCalculator:
@@ -24,4 +24,4 @@ class PathCalculator:
             for residential_building, poi, dist in zip(residential_buildings, pois, dists):
                 self.results.add(residential_building, poi, Distance(dist))
             i += 1
-        self.results.save_to_db()
+            self.results.save_to_db()

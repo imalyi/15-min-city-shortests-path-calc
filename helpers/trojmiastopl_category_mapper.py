@@ -1,5 +1,6 @@
 import json
 
+JSON_DATA_PATH = '/home/igor/Projects/15-min-city-shortests-path-calc/poi_data'
 
 class TrojmiastoplCategoryMapper:
     def __init__(self):
@@ -26,7 +27,7 @@ class TrojmiastoplCategoryChanger:
         self.mapper = TrojmiastoplCategoryMapper()
 
     def get_raw_data(self):
-        with open("data.json", "r") as data_file:
+        with open(f"{JSON_DATA_PATH}/supermarkets.json", "r") as data_file:
             return json.loads(data_file.read())
 
     def transform_data(self):
@@ -35,7 +36,8 @@ class TrojmiastoplCategoryChanger:
                 new_category = self.mapper.map(category.lower())
                 if not new_category:
                     continue
-                self.data.append({'categories': new_category, 'name': raw_row.get('name'), 'address': raw_row.get('address')})
+                raw_row['categories'] = new_category
+                self.data.append(raw_row)
         return self.data
 
     def save(self):

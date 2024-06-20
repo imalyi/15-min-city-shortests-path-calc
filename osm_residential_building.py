@@ -1,6 +1,6 @@
 import logging
 from data import Address, Location, ResidentialBuilding
-from geometry import Geometry
+from data import Geometry
 
 class OSMResidentialBuildings:
     def __init__(self, osm):
@@ -26,7 +26,7 @@ class OSMResidentialBuildings:
         building_count = 0
         for index, building in buildings.iterrows():
             address = Address(building.get('addr:street', None), building.get('addr:city', None), building.get('addr:housenumber', None))
-            location = Location(building.geometry.centroid.x, building.geometry.centroid.y)
+            location = Location(building.geometry.centroid.y, building.geometry.centroid.x)
             geometry = Geometry(building.geometry)
             if address.is_valid:
                 buildings_list.append(ResidentialBuilding(address, location, geometry))

@@ -1,7 +1,7 @@
 from database import MongoDatabase
 from data import ResidentialBuilding, PointOfInterest
 import logging
-from distance import Distance
+from data import Distance
 from categories.category import generate_dict_with_empty_categories
 
 

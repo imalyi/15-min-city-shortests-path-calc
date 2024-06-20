@@ -1,3 +1,5 @@
+# This script create addresses collection for searching addresses.
+
 from opensearchpy import OpenSearch
 import json
 from opensearchpy.helpers import bulk

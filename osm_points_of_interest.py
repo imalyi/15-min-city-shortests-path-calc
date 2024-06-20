@@ -20,7 +20,6 @@ class OSMPointsOfInterest:
             raise StopIteration
 
     def get_pois(self):
-        custom_filter = {'amenity': True}
         pois = self.osm.get_pois()
         pois_list = []
         for index, building in pois.iterrows():

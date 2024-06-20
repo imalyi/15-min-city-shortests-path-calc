@@ -8,8 +8,8 @@
             "city": "Gdańsk",
             "postcode": "80-462",
             "street": "al. Jana Pawła II 6E/3"
-        }
-    },
+        }},
+       
     {
         "categories": {
             "main": "Higiena",
@@ -21,4 +21,5 @@
             "postcode": "81-450",
             "street": "Redłowska 52/5"
         }
-    }]
+        }
+    ]

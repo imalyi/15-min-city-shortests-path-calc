@@ -14,7 +14,7 @@ class IDToData:
         x = []
         y = []
         for row in source:
-            x.append(row.location.x)
-            y.append(row.location.y)
+            y.append(row.location.latitude)
+            x.append(row.location.longitude)
         ids = self.graph.get_node_ids(x, y)
         return ids

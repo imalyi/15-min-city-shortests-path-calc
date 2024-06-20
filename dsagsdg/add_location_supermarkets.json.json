@@ -1,0 +1,2773 @@
+[
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Zawodników 4",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3472622,
+            "longitude": 18.6704179
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Sandomierska 11",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3322427,
+            "longitude": 18.6360637
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Kartuska 455",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.352755,
+            "longitude": 18.5002432
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Marcina Dragana 27",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3397166,
+            "longitude": 18.6162749
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Marynarki Polskiej 97",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3773043,
+            "longitude": 18.6327915
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Kartuska 224",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3448988,
+            "longitude": 18.6001026
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Platynowa 3",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3257246,
+            "longitude": 18.6131263
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Jana Uphagena 32",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3770322,
+            "longitude": 18.6162077
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Warszawska 21",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3352068,
+            "longitude": 18.5964842
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Nowotna 20",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3631443,
+            "longitude": 18.7170858
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Franciszka Rakoczego 21",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3562458,
+            "longitude": 18.588076
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Bolesława Chrobrego 75",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.389931,
+            "longitude": 18.6185022
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "al. Grunwaldzka 161",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3839169,
+            "longitude": 18.5971189
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Franciszka Hynka 69",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3903504,
+            "longitude": 18.591018
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Czerska 71",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2996904,
+            "longitude": 18.6069008
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Staropolska 36",
+            "city": "Kowale",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3118386,
+            "longitude": 18.5686112
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Przywidzka 9",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3226511,
+            "longitude": 18.552794
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Bajki 1/3",
+            "city": "Rotmanka",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2725142,
+            "longitude": 18.6107632
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Złota Karczma 21",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3754748,
+            "longitude": 18.5238456
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Azaliowa 2",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2638937,
+            "longitude": 18.6650515
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Starogardzka 31",
+            "city": "Straszyn",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2744304,
+            "longitude": 18.583618
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "al. Niepodległości 697",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4325857,
+            "longitude": 18.5623907
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "al. Niepodległości 938",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.458174,
+            "longitude": 18.554329
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Wodnika 38",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.424267,
+            "longitude": 18.4765747
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Lotnicza 44",
+            "city": "Banino",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3934528,
+            "longitude": 18.4035201
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Gryfa Pomorskiego 3",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4697544,
+            "longitude": 18.4917107
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Małokacka 31",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4971361,
+            "longitude": 18.5102967
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Oliwska 122",
+            "city": "Chwaszczyno",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4433124,
+            "longitude": 18.4131483
+        }
+    },
+    {
+        "name": "Lidl",
+        "address": {
+            "street": "ul. Świętojańska 45/1",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://lidl.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.5163072,
+            "longitude": 18.5411835
+        }
+    },
+    {
+        "name": "polomarket",
+        "address": {
+            "street": "ul. Spacerowa 65",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://polomarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4323997,
+            "longitude": 18.4799808
+        }
+    },
+    {
+        "name": "polomarket",
+        "address": {
+            "street": "ul. Junony 98",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://polomarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4182887,
+            "longitude": 18.4780893
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Tandeta 1/78",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3509663,
+            "longitude": 18.6553662
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Długie Ogrody 14",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3471888,
+            "longitude": 18.6628418
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Karmelicka 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3547347,
+            "longitude": 18.6458912
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Rajska 6",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3553581,
+            "longitude": 18.650496
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Łąkowa 35/38",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3408733,
+            "longitude": 18.6595731
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kartuska 26",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3491142,
+            "longitude": 18.6317695
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Stanisława Worcella 44",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3379311,
+            "longitude": 18.6257851
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Tytusa Chałubińskiego 27",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.340637,
+            "longitude": 18.6190514
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Ignacego Paderewskiego 9",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3540176,
+            "longitude": 18.606866
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Trakt Św. Wojciecha 149",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3211893,
+            "longitude": 18.631306
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Gen. Augusta Emila Fieldorfa 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3276369,
+            "longitude": 18.6144115
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Krzemowa 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3249417,
+            "longitude": 18.6176265
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wrzosy 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3625479,
+            "longitude": 18.7108812
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kłosowa 6",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3602725,
+            "longitude": 18.7187979
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Piekarnicza 24",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3513276,
+            "longitude": 18.586022
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Grunwaldzka 100",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3780694,
+            "longitude": 18.6061993
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Franciszka Rakoczego 17",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3580278,
+            "longitude": 18.5850737
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wajdeloty 12",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3818871,
+            "longitude": 18.6082813
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Piecewska 26",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3593594,
+            "longitude": 18.5837262
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Gen. Józefa Hallera 167",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.388605,
+            "longitude": 18.6230337
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Sucha 31",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3939082,
+            "longitude": 18.6441154
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Warszawska 59",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3317823,
+            "longitude": 18.5837722
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Rzeczypospolitej 33",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3898913,
+            "longitude": 18.6104413
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Cypriana Kamila Norwida 15",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3830397,
+            "longitude": 18.5921632
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wolności 8",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3994229,
+            "longitude": 18.6694066
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kartuska 406",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.341831,
+            "longitude": 18.5494844
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kartuska 257",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3459754,
+            "longitude": 18.5931479
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kartuska 332",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3371156,
+            "longitude": 18.5708289
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wyzwolenia 26",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3995493,
+            "longitude": 18.6602858
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kazimierza Porębskiego 8",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3188107,
+            "longitude": 18.5820975
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Grunwaldzka 211",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3883181,
+            "longitude": 18.5900088
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wielkopolska 62",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3100605,
+            "longitude": 18.5875695
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Myśliwska 102",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3507619,
+            "longitude": 18.555962
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Konrada Guderskiego 10",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3175585,
+            "longitude": 18.5685815
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Startowa 14",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3982273,
+            "longitude": 18.5929851
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Jelitkowski Dwór 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4067869,
+            "longitude": 18.6132079
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Opolska 3",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4033867,
+            "longitude": 18.5993034
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Jabłoniowa 46",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3253714,
+            "longitude": 18.5485345
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Starogardzka 1",
+            "city": "Straszyn",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2774211,
+            "longitude": 18.5891482
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Prezydenta Lecha Kaczyńskiego 20",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4119039,
+            "longitude": 18.6022653
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Prezydenta Lecha Kaczyńskiego 5",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4162258,
+            "longitude": 18.5967054
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Czerwony Dwór 24",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4121689,
+            "longitude": 18.5864821
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kaprów 3",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4082053,
+            "longitude": 18.5670052
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Pomorska 25",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4199602,
+            "longitude": 18.5815118
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Jana Kasprowicza 40",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.265278,
+            "longitude": 18.6556225
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Antoniego Dobrowolskiego 2",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2663063,
+            "longitude": 18.6283446
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Ks. Józefa Waląga 1",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2610449,
+            "longitude": 18.6382521
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Juliusza Słowackiego 159",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3766311,
+            "longitude": 18.5098022
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Gen. Stanisława Skalskiego 1",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2577333,
+            "longitude": 18.6479417
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Kartuska 467",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3531781,
+            "longitude": 18.4964731
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "al. Niepodległości 691",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4323229,
+            "longitude": 18.5620134
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Dojazdowa 2",
+            "city": "Lublewo Gdańskie",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2877516,
+            "longitude": 18.5056182
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Meteorytowa 11",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4106236,
+            "longitude": 18.4845727
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Sosnowa 1",
+            "city": "Cieplewo",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2318461,
+            "longitude": 18.6343867
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wejherowska 35",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4568293,
+            "longitude": 18.5524731
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Koziorożca 38",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4193769,
+            "longitude": 18.4694267
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Osowski Zakątek 17",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4304935,
+            "longitude": 18.479455
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wacława Balcerskiego 12",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4305983,
+            "longitude": 18.4691527
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Wacława Balcerskiego 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4318789,
+            "longitude": 18.4707542
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Korzenna 251",
+            "city": "Korzenna",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 49.6870253,
+            "longitude": 20.8495933
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Korzenna 19/4",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4698407,
+            "longitude": 18.5069528
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Borowiecka 2",
+            "city": "Banino",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3934515,
+            "longitude": 18.402004
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Legionów 112",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4908222,
+            "longitude": 18.5422781
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Jarosława Iwaszkiewicza 1",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4733396,
+            "longitude": 18.4909386
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Sojowa 35",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4692331,
+            "longitude": 18.4687401
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Adama Mickiewicza 2",
+            "city": "Kartuzy",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3356631,
+            "longitude": 18.1876713
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Mikołaja Kopernika 36",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.5024597,
+            "longitude": 18.5416909
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Gdańska 1",
+            "city": "Pszczółki",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.1792146,
+            "longitude": 18.6853717
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Oliwska 139",
+            "city": "Chwaszczyno",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4429754,
+            "longitude": 18.4172976
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Strażacka 2",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.5014542,
+            "longitude": 18.5139747
+        }
+    },
+    {
+        "name": "Biedronka",
+        "address": {
+            "street": "ul. Józefa Bema 22/24",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://biedronka.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.5110573,
+            "longitude": 18.5397402
+        }
+    },
+    {
+        "name": "Intermarche Super",
+        "address": {
+            "street": "al. Rzeczypospolitej 33",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://intermarche-super.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3898913,
+            "longitude": 18.6104413
+        }
+    },
+    {
+        "name": "Intermarche Super",
+        "address": {
+            "street": "al. Grunwaldzka 615",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://intermarche-super.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4232851,
+            "longitude": 18.5651376
+        }
+    },
+    {
+        "name": "Carrefour",
+        "address": {
+            "street": "al. Grunwaldzka 141",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://carrefour.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3818452,
+            "longitude": 18.5990524
+        }
+    },
+    {
+        "name": "Carrefour",
+        "address": {
+            "street": "ul. Przywidzka 6",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://carrefour.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3219119,
+            "longitude": 18.5503271
+        }
+    },
+    {
+        "name": "Dino",
+        "address": {
+            "street": "ul. Słoneczna 2",
+            "city": "Borkowo",
+            "postcode": ""
+        },
+        "url": "https://dino.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3293653,
+            "longitude": 18.3069006
+        }
+    },
+    {
+        "name": "Dino",
+        "address": {
+            "street": "ul. Do Raduni 1",
+            "city": "Żukowo",
+            "postcode": ""
+        },
+        "url": "https://dino.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3405019,
+            "longitude": 18.3739652
+        }
+    },
+    {
+        "name": "Top Market",
+        "address": {
+            "street": "ul. Łapińska 26",
+            "city": "Przyjaźń",
+            "postcode": ""
+        },
+        "url": "https://topmarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.304516,
+            "longitude": 18.4059003
+        }
+    },
+    {
+        "name": "Top Market",
+        "address": {
+            "street": "ul. Bohaterów Starówki Warszawskiej 6",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://topmarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4944533,
+            "longitude": 18.551223
+        }
+    },
+    {
+        "name": "Top Market",
+        "address": {
+            "street": "ul. Gdyńska 37",
+            "city": "Żukowo",
+            "postcode": ""
+        },
+        "url": "https://topmarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3471624,
+            "longitude": 18.3650699
+        }
+    },
+    {
+        "name": "Carrefour Market",
+        "address": {
+            "street": "ul. Rogalińska 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://carrefour-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.329426,
+            "longitude": 18.6000672
+        }
+    },
+    {
+        "name": "Carrefour Market",
+        "address": {
+            "street": "ul. Kołobrzeska 54",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://carrefour-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4056732,
+            "longitude": 18.6030366
+        }
+    },
+    {
+        "name": "Carrefour Market",
+        "address": {
+            "street": "ul. Tadeusza Kościuszki 26",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://carrefour-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4394978,
+            "longitude": 18.5637501
+        }
+    },
+    {
+        "name": "Eurospar",
+        "address": {
+            "street": "al. Grunwaldzka 82",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://eurospar.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3769618,
+            "longitude": 18.6074053
+        }
+    },
+    {
+        "name": "Eurospar",
+        "address": {
+            "street": "al. Grunwaldzka 471",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://eurospar.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4017685,
+            "longitude": 18.5745507
+        }
+    },
+    {
+        "name": "Eurospar",
+        "address": {
+            "street": "al. Zwycięstwa 256",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://eurospar.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4758971,
+            "longitude": 18.5515826
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Siennicka 26",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3573268,
+            "longitude": 18.6821337
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Wilhelma Stryjewskiego 27",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3608148,
+            "longitude": 18.7116133
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Adama Mickiewicza 37",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3826896,
+            "longitude": 18.6251699
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Dywizjonu 303 303 25",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3873174,
+            "longitude": 18.5976061
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Jabłoniowa 21/8",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.331336,
+            "longitude": 18.5654494
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Konstantego Ildefonsa Gałczyńskiego 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.406418,
+            "longitude": 18.6389948
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Startowa 4",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3971399,
+            "longitude": 18.5955207
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Piotra Norblina 23",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3877514,
+            "longitude": 18.5708202
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Łowicka 16",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3559849,
+            "longitude": 18.7643108
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Bałtycka 5",
+            "city": "Rokitnica",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2727277,
+            "longitude": 18.6837591
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Szyprów 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.422577,
+            "longitude": 18.5770252
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Sowia 2/1",
+            "city": "Bąkowo",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2955398,
+            "longitude": 18.5349298
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Stanisława Wyspiańskiego 63",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2579751,
+            "longitude": 18.6735535
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. 3 Maja 17",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4373057,
+            "longitude": 18.5712806
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Grunwaldzka 80",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4393862,
+            "longitude": 18.572918
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Fryderyka Chopina 43",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4423711,
+            "longitude": 18.5698249
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Jana Jerzego Haffnera 44",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4475442,
+            "longitude": 18.5640364
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Grabowo 28",
+            "city": "Grabowo",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 53.8019712,
+            "longitude": 21.2258165
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Brunona Gregorkiewicza 60",
+            "city": "Bielkówko",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.262596,
+            "longitude": 18.5067238
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Wodnika 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4283979,
+            "longitude": 18.4783381
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Dworcowa 1",
+            "city": "Kolbudy",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2690743,
+            "longitude": 18.4661845
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Barniewicka 107",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4265659,
+            "longitude": 18.4599081
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Piłsudskiego 4",
+            "city": "Żukowo",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3475068,
+            "longitude": 18.3579745
+        }
+    },
+    {
+        "name": "Lewiatan",
+        "address": {
+            "street": "ul. Pomorska 39",
+            "city": "Pszczółki",
+            "postcode": ""
+        },
+        "url": "https://lewiatan.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.1725614,
+            "longitude": 18.7016421
+        }
+    },
+    {
+        "name": "Stokrotka Market",
+        "address": {
+            "street": "ul. Stężycka 64",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://stokrotka-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3337194,
+            "longitude": 18.5425254
+        }
+    },
+    {
+        "name": "Stokrotka Market",
+        "address": {
+            "street": "ul. Śląska 66",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://stokrotka-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.40643,
+            "longitude": 18.5843356
+        }
+    },
+    {
+        "name": "Stokrotka Market",
+        "address": {
+            "street": "ul. Dąbrówki 199",
+            "city": "Dąbrówki",
+            "postcode": ""
+        },
+        "url": "https://stokrotka-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 49.5909767,
+            "longitude": 20.6893496
+        }
+    },
+    {
+        "name": "Stokrotka Market",
+        "address": {
+            "street": "ul. Widna 1",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://stokrotka-market.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4985887,
+            "longitude": 18.5080393
+        }
+    },
+    {
+        "name": "Auchan Supermarket",
+        "address": {
+            "street": "ul. Złota Karczma 26",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://auchan-supermarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3719184,
+            "longitude": 18.5203511
+        }
+    },
+    {
+        "name": "Auchan Supermarket",
+        "address": {
+            "street": "ul. Redłowska 41",
+            "city": "Gdynia",
+            "postcode": ""
+        },
+        "url": "https://auchan-supermarket.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.496381,
+            "longitude": 18.540065
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Rajska 10",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3562219,
+            "longitude": 18.6486225
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Warszawska 19",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3359031,
+            "longitude": 18.5970221
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Świętokrzyska 50",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3212146,
+            "longitude": 18.5972019
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Franciszka Rakoczego 13",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3582301,
+            "longitude": 18.5827987
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Opolska 3",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4033867,
+            "longitude": 18.5993034
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Obrońców Wybrzeża 21",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4101631,
+            "longitude": 18.6002476
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Ignacego Domeyki 1",
+            "city": "Pruszcz Gdański",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.2698854,
+            "longitude": 18.6228902
+        }
+    },
+    {
+        "name": "Netto",
+        "address": {
+            "street": "ul. Kalinowa 3",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://netto.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3502613,
+            "longitude": 18.5129204
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Rajska 8",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3557689,
+            "longitude": 18.6495733
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Zygmunta Noskowskiego 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3555079,
+            "longitude": 18.6141283
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Piecewska 29",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3583445,
+            "longitude": 18.5820467
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Limbowa 1",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3369958,
+            "longitude": 18.5688787
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Władysława Czermińskiego 4",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3220924,
+            "longitude": 18.554657
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Kartuska 478",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.3516201,
+            "longitude": 18.5000646
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Gen. Władysława Sikorskiego 8",
+            "city": "Sopot",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4423416,
+            "longitude": 18.5575963
+        }
+    },
+    {
+        "name": "Aldi",
+        "address": {
+            "street": "ul. Raatza 2",
+            "city": "Gdańsk",
+            "postcode": ""
+        },
+        "url": "https://aldi.okazjum.pl/sklepy/gdansk/",
+        "categories": {
+            "main": "Sklepy",
+            "sub": "Supermarkety"
+        },
+        "location": {
+            "latitude": 54.4164891,
+            "longitude": 18.4766217
+        }
+    }
+]

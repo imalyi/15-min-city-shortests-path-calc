@@ -1,23 +1,18 @@
 from pyrosm import OSM, get_data
-from osm_residential_building import *
+from osm_residential_building import OSMResidentialBuildings
 from pairs import Pairs
 from logging_config import configure_logging
 from pandana_graph import PandanaGraph
 from shortest_path_calculator import PathCalculator
-from trojmiasto_points_of_Interest import AddressToCoordinates, TrojmiastoPlPointsOfInterest
+from points_of_interest import PointsOfInteresJsonLoader
 
-def test():
-    configure_logging()
-    osm = OSM(get_data('Gliwice'))
-    b = OSMResidentialBuildings(osm)
 
 def main():
     configure_logging()
     osm = OSM(get_data('Gdansk'))
     b = OSMResidentialBuildings(osm)
 
-    address_to_coordinates = AddressToCoordinates(b)
-    pois = TrojmiastoPlPointsOfInterest(address_to_coordinates)
+    pois = PointsOfInteresJsonLoader()
 
     p = Pairs(pois, b)
     pd = PandanaGraph(osm)
